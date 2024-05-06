@@ -1,44 +1,90 @@
-import React from "react";
+import React from 'react';
 
 const Footer: React.FC = () => {
-    return (
-        <footer className="bg-white dark:bg-gray-900">
-            <div className="mx-auto w-full max-w-screen-xl">
-                <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
-                    <div>
-                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
-                        <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                            <li className="mb-4">
-                                <a href="/" className="hover:underline">About</a>
-                            </li>
-                            <li className="mb-4">
-                                <a href="/" className="hover:underline">Careers</a>
-                            </li>
-                            <li className="mb-4">
-                                <a href="/" className="hover:underline">Brand Center</a>
-                            </li>
-                            <li className="mb-4">
-                                <a href="/" className="hover:underline">Blog</a>
-                            </li>
-                        </ul>
-                    </div>
-                    {/* Other sections follow with similar structure */}
-                </div>
-                <div className="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
-                    <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="https://flowbite.com/">Flowbite™</a>. All Rights Reserved.</span>
-                    <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
-                        <a href="#" className="text-gray-400 hover:text-gray-900 dark:hover:text-white">
-                            <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-                                {/* Facebook icon */}
-                            </svg>
-                            <span className="sr-only">Facebook page</span>
-                        </a>
-                        {/* Other social media icons follow */}
-                    </div>
-                </div>
-            </div>
-        </footer>
-    )
-}
+  return (
+    <footer className="text-black body-font">
+      <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+          <a className="flex title-font font-medium items-center md:justify-start justify-center text-black">
+            <img className='w-10' src="https://static.vecteezy.com/system/resources/previews/019/842/161/non_2x/ark-abstract-technology-logo-design-on-white-background-ark-creative-initials-letter-logo-concept-vector.jpg" alt="" />
+            <span className="ml-3  font-bold  uppercase text-2xl">ARKTech World</span>
+          </a>
+          <p className="mt-2 text-lg text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
+        </div>
+        <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font  text-black tracking-widest text-lg uppercase font-bold mb-3">Services</h2>
+            <nav className="list-none mb-10">
+              <li className='my-2'>
+                <a className="text-black hover:text-gray-800 text-lg font-normal leading-relaxed tracking-wider  ">Home</a>
+              </li>
+              <li className='my-2'>
+                <a className="text-black hover:text-gray-800 text-lg font-normal leading-relaxed tracking-wider ">About</a>
+              </li>
+              <li className='my-2'>
+                <a className="text-black hover:text-gray-800 text-lg font-normal leading-relaxed tracking-wider ">Services</a>
+              </li>
+              <li className='my-2'>
+                <a className="text-black hover:text-gray-800  text-lg font-normal leading-relaxed tracking-wider ">Blog</a>
+              </li>
+            </nav>
+          </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font  text-black tracking-widest text-lg font-bold  uppercase mb-3">Technology</h2>
+            <nav className="list-none mb-10">
+              <li className='my-2'>
+                <a className="text-black hover:text-gray-800 ">Home</a>
+              </li>
+              <li className='my-2'>
+                <a className="text-black hover:text-gray-800 ">About</a>
+              </li>
+              <li className='my-2'>
+                <a className="text-black hover:text-gray-800 ">Services</a>
+              </li>
+              <li className='my-2'>
+                <a className="text-black hover:text-gray-800 ">Blog</a>
+              </li>
+            </nav>
+          </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font   font-bold  text-black tracking-widest text-lg  uppercase mb-3">Our product</h2>
+            <nav className="list-none mb-10">
+              <li className='my-2'>
+                <a className="text-black hover:text-gray-800 ">Home</a>
+              </li>
+              <li className='my-2'>
+                <a className="text-black hover:text-gray-800 ">About</a>
+              </li>
+              <li className='my-2'>
+                <a className="text-black hover:text-gray-800 ">Services</a>
+              </li>
+              <li className='my-2'>
+                <a className="text-black hover:text-gray-800 ">Blog</a>
+              </li>
+            </nav>
+          </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-bold text-black tracking-widest text-lg mb-3 uppercase">COMPANY</h2>
+            <nav className="list-none mb-10">
+              <li className='my-2'>
+                <a className="text-black hover:text-gray-800 "> Home</a>
+              </li>
+              <li className='my-2'>
+                <a className="text-black hover:text-gray-800 ">About</a>
+              </li>
+              <li className='my-2'>
+                <a className="text-black hover:text-gray-800" >Services</a>
+              </li>
+              <li className='my-2'>
+                <a className="text-black hover:text-gray-800  ">Blog</a>
+              </li>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+  );
+};
 
 export default Footer;
